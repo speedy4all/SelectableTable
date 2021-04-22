@@ -1,0 +1,62 @@
+.selectable-table {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(68, 68, 68, 0.6);
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.row {
+    border-bottom: 1px solid rgba(68, 68, 68, 0.2);
+    line-height: 2.5rem;
+}
+
+.row:hover {
+    background: lightgray;
+    cursor: pointer;
+}
+
+.row.selected {
+    background: lightgray;
+}
+
+.row th, .row td {
+    padding: 0.25rem;
+    border-spacing: 0;
+}
+
+.header .row th, .header .row td {
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+.header .row:last-child th, .header .row:last-child td {
+    top: 48px;
+}
+
+.header .row {
+    text-align: left;
+    cursor: auto;
+}
+
+.actions-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.actions {
+    font-size: 1.5em;
+}
+
+.selected-text {
+    flex: 0.12;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+tbody .row:last-child {
+    border-bottom: none;
+}
+
