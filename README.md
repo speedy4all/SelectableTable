@@ -1,6 +1,6 @@
 # SelectableTable
 
-A list with the ability to select rows and perform actions with them.
+This is a reusable component with the ability to select rows and perform actions with them.
 
 # Install && run
 
